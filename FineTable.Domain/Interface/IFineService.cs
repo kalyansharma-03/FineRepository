@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FineTable.Domain.Interface
 {
-    internal interface IFine
+    internal interface IFineService
     {
     }
 }
