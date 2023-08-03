@@ -25,4 +25,8 @@
     <ProjectReference Include="..\FineTable.Infrastructure\FineTable.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FineTable.Application\FineTable.Application.csproj" />
+  </ItemGroup>
+
 </Project>
