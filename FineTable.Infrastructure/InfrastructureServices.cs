@@ -19,6 +19,7 @@ namespace FineTable.Infrastructure
             services.AddDbContext<DatabaseContext>(o => o.UseNpgsql(configuration["ConnectionStrings:DefaultConnection"]));
             services.AddScoped<IServiceFactory, ServiceFactory>();
             services.AddScoped<IFineService,FineService>();
+            services.AddScoped<IFineCollectionService,FineCollectionService>();
             
 
             return services;
