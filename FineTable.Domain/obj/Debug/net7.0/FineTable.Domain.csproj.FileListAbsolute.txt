@@ -12,3 +12,17 @@ C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.Domain\obj\Debug\net7.0\ref
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.pdb
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.genruntimeconfig.cache
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.Domain\obj\Debug\net7.0\ref\FineTable.Domain.dll
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\bin\Debug\net7.0\FineTable.Domain.deps.json
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\bin\Debug\net7.0\FineTable.Domain.runtimeconfig.json
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\bin\Debug\net7.0\FineTable.Domain.dll
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\bin\Debug\net7.0\FineTable.Domain.pdb
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.csproj.AssemblyReference.cache
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.AssemblyInfoInputs.cache
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.AssemblyInfo.cs
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.dll
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\refint\FineTable.Domain.dll
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.pdb
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\FineTable.Domain.genruntimeconfig.cache
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.Domain\obj\Debug\net7.0\ref\FineTable.Domain.dll
