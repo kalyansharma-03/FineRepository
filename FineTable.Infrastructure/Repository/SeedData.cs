@@ -14,8 +14,8 @@ namespace FineTable.Infrastructure.Repository
         {
             var initialData = new List<EFine>
             {
-                new EFine { Id = 1,MemberType=(System.Reflection.MemberTypes)MemberType.Staff, Amount = 50},
-                new EFine { Id = 2,MemberType=(System.Reflection.MemberTypes)MemberType.Student, Amount = 10},
+                new EFine { Id = 1,MemberType=MemberType.Staff, Amount = 50},
+                new EFine { Id = 2,MemberType=MemberType.Student, Amount = 10},
 
             };
             return initialData;

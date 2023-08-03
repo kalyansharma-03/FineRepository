@@ -35,7 +35,11 @@ namespace FineTable.Application.Manager.Implementation
                               {
                                   Id = s.Id,
                                   Amount = s.Amount,
+<<<<<<< HEAD
                                   MemberType   = s.MemberType
+=======
+                                  MemberType=s.MemberType,
+>>>>>>> d18292a8b4ab0e4d831a5d1ace9548fa3e726803
                               }).ToList();
                 serviceResult.Status = StatusType.Success;
                 serviceResult.Message = "Fine Status Found";
@@ -68,11 +72,11 @@ namespace FineTable.Application.Manager.Implementation
                     return serviceResult;
                 }
 
-                var bookResponse = _mapper.Map<FineResponse>(fine);
+                var fineResponse = _mapper.Map<FineResponse>(fine);
 
                 serviceResult.Status = StatusType.Success;
                 serviceResult.Message = "Fine Found";
-                serviceResult.Data = bookResponse;
+                serviceResult.Data = fineResponse;
 
                 return serviceResult;
             }

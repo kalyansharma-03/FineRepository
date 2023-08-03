@@ -35,7 +35,7 @@ namespace FineTable.Infrastructure.Service
             try
             {
                 var service = _factory.GetInstance<EFine>();
-                var result = service.ListAsync().Result.FirstOrDefault(x=>x.Id == id);
+                var result = await service.FindAsync(id);
                 if(result == null)
                 {
                     return null;
