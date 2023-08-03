@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace FineTable.Infrastructure.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230803102621_init")]
-    partial class init
+    [Migration("20230803104751_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -61,9 +61,8 @@ namespace FineTable.Infrastructure.Migrations
                     b.Property<int>("Days")
                         .HasColumnType("integer");
 
-                    b.Property<string>("MemberID")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("MemberID")
+                        .HasColumnType("integer");
 
                     b.Property<int>("MemberType")
                         .HasColumnType("integer");

@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace FineTable.Infrastructure.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230803103014_init2")]
-    partial class init2
+    [Migration("20230803111258_seededdata")]
+    partial class seededdata
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -42,6 +42,20 @@ namespace FineTable.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("FineTable");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Amount = 50,
+                            MemberType = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Amount = 10,
+                            MemberType = 1
+                        });
                 });
 
             modelBuilder.Entity("FineTable.Domain.Entities.EFineCollection", b =>
