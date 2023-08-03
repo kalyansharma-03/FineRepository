@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "BVqbeHNpoWRzUEg6ft1sBOm3XYwmdrhfo9dMPhLyVDmHpcR2w9gIoS4IvzUxjpqniFkNk446bEG2+msjlkuAZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sharm\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sharm\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
