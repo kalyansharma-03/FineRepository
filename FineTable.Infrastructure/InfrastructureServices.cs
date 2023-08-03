@@ -1,4 +1,6 @@
-﻿using FineTable.Infrastructure.Repository;
+﻿using FineTable.Domain.Interface;
+using FineTable.Infrastructure.Repository;
+using FineTable.Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,7 +18,7 @@ namespace FineTable.Infrastructure
         {
             services.AddDbContext<DatabaseContext>(o => o.UseNpgsql(configuration["ConnectionStrings:DefaultConnection"]));
             services.AddScoped<IServiceFactory, ServiceFactory>();
-
+            services.AddScoped<IFineService,FineService>();
             
 
             return services;
