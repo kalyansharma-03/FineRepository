@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FineTable.Domain.Enum;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace FineTable.Domain.Entities
         public int MemberID { get; set; }
         public int Amount { get; set; }
         public int Days { get; set; }
-        public MemberTypes MemberType { get; set; }
+        public MemberType MemberType { get; set; }
         public DateTime CreatedDate {get; set;}
         public DateTime ReturnDate{get; set;}
         

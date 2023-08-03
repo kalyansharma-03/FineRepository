@@ -24,6 +24,7 @@ namespace FineTable.Infrastructure.Service
             try
             {
                 var service = _serviceFactory.GetInstance<EFineCollection>();
+                
                 await service.AddAsync(eFineCollection);
                 return true;
             }

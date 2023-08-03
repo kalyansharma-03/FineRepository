@@ -159,9 +159,6 @@ namespace FineTable.Infrastructure.Repository
             // throw new NotImplementedException();
         }
 
-        IServiceRepository<t> IServiceFactory.GetInstance<t>()
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

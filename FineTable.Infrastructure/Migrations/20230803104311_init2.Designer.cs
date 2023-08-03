@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace FineTable.Infrastructure.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230803103014_init2")]
+    [Migration("20230803104311_init2")]
     partial class init2
     {
         /// <inheritdoc />

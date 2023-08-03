@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace FineTable.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class init2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,7 +18,7 @@ namespace FineTable.Infrastructure.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    MemberID = table.Column<string>(type: "text", nullable: false),
+                    MemberID = table.Column<int>(type: "integer", nullable: false),
                     Amount = table.Column<int>(type: "integer", nullable: false),
                     Days = table.Column<int>(type: "integer", nullable: false),
                     MemberType = table.Column<int>(type: "integer", nullable: false),

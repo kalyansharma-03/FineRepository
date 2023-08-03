@@ -12,6 +12,5 @@ namespace FineTable.Domain.Entities
         public int Id { get; set; }
         public MemberTypes MemberType { get; set; }
         public int Amount { get; set; }
-
     }
 }

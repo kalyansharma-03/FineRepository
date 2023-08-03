@@ -13,9 +13,11 @@ namespace FineTable.Application.Manager.Implementation
     public class FineCollectionManager : IFineCollectionManager
     {
         private readonly IFineCollectionService _service;
-        public FineCollectionManager(IFineCollectionService fineCollectionService)
+        private readonly IFineService _serviceFine;
+        public FineCollectionManager(IFineCollectionService fineCollectionService, IFineService serviceFine)
         {
             _service = fineCollectionService;
+            _serviceFine = serviceFine;
         }
 
         public async Task<bool> AddFineCollection(FineCollectionRequest fineCollectionRequest)
@@ -30,6 +32,8 @@ namespace FineTable.Application.Manager.Implementation
                     ReturnDate = fineCollectionRequest.ReturnDate,  
                     MemberType = fineCollectionRequest.MemberType,
                 };
+
+
                 var result = await _service.AddFineCollection(parse);
                 return true;
             }
