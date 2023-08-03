@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FineTable.Application.DTO.Request;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace FineTable.Application.Manager.Interface
 {
     public interface IFineCollectionManager
     {
+        Task<bool> AddFineCollection(FineCollectionRequest fineCollectionRequest);
     }
 }

@@ -17,4 +17,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FineTable.Application\FineTable.Application.csproj" />
+  </ItemGroup>
+
 </Project>

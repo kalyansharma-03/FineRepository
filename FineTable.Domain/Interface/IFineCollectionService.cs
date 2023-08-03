@@ -9,7 +9,7 @@ namespace FineTable.Domain.Interface
 {
     public  interface IFineCollectionService
     {
-        Task<bool> CreateFineCollection(EFineCollection eFineCollection);
+        Task<bool> AddFineCollection(EFineCollection eFineCollection);
         Task<List<EFineCollection>> GetFineCollections();
         Task<EFineCollection> GetFineCollectionById(EFineCollection eFineCollection);
         Task<bool> UpdateFineCollection(EFineCollection eFineCollection);

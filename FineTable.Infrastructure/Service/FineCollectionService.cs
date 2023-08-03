@@ -4,6 +4,7 @@ using FineTable.Infrastructure.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,35 +16,91 @@ namespace FineTable.Infrastructure.Service
 
         public FineCollectionService(IServiceFactory serviceFactory)
         {
+            _serviceFactory = serviceFactory;
+        }
+
+        public async Task<bool> AddFineCollection(EFineCollection eFineCollection)
+        {
             try
-            { 
-                //var service = _serviceFactory.GetInstance<>
-            } catch (Exception ex) { }
+            {
+                var service = _serviceFactory.GetInstance<EFineCollection>();
+                await service.AddAsync(eFineCollection);
+                return true;
+            }
+            catch (Exception ex) {
+                return false;
+            }
         }
 
-        public Task<bool> CreateFineCollection(EFineCollection eFineCollection)
+        public async Task<bool> DeleteFineCollection(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var service = _serviceFactory.GetInstance<EFineCollection>();
+                var findFine = await service.FindAsync(id); 
+                if (findFine == null) {
+                    return false;
+                }
+                await service.UpdateAsync(findFine);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
-        public Task<bool> DeleteFineCollection(int id)
+        public async Task<EFineCollection> GetFineCollectionById(EFineCollection eFineCollection)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var service = _serviceFactory.GetInstance<EFineCollection>();
+                var fineFine = service.ListAsync().Result.FirstOrDefault();
+                if (fineFine == null)
+                {
+                    return null;
+                }
+                return fineFine;
+               
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
-        public Task<EFineCollection> GetFineCollectionById(EFineCollection eFineCollection)
+        public async Task<List<EFineCollection>> GetFineCollections()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var service = _serviceFactory.GetInstance<EFineCollection>();
+                var result = await service.ListAsync();
+                return result;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
-        public Task<List<EFineCollection>> GetFineCollections()
+        public async Task<bool> UpdateFineCollection(EFineCollection eFineCollection)
         {
-            throw new NotImplementedException();
-        }
+            try
+            {
+                var service = _serviceFactory.GetInstance<EFineCollection>();
+                var result = await service.FindAsync(eFineCollection.Id);
+                if (result == null)
+                {
+                    return false;
+                }
+                await service.UpdateAsync(eFineCollection); 
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
 
-        public Task<bool> UpdateFineCollection(EFineCollection eFineCollection)
-        {
-            throw new NotImplementedException();
         }
     }
 }

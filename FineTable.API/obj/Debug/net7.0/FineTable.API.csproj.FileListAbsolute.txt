@@ -1,0 +1,6 @@
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.API\obj\Debug\net7.0\FineTable.API.csproj.AssemblyReference.cache
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.API\obj\Debug\net7.0\FineTable.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.API\obj\Debug\net7.0\FineTable.API.AssemblyInfoInputs.cache
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.API\obj\Debug\net7.0\FineTable.API.AssemblyInfo.cs
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.API\obj\Debug\net7.0\FineTable.API.csproj.CoreCompileInputs.cache
+C:\Users\SAMIKSHA\Desktop\FineCollection\FineRepository\FineTable.API\obj\Debug\net7.0\FineTable.API.MvcApplicationPartsAssemblyInfo.cache
