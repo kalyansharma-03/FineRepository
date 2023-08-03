@@ -32,7 +32,6 @@ C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.API\obj\Debug\net7.0\FineTa
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.API\obj\Debug\net7.0\FineTable.API.AssemblyInfoInputs.cache
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.API\obj\Debug\net7.0\FineTable.API.AssemblyInfo.cs
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.API\obj\Debug\net7.0\FineTable.API.csproj.CoreCompileInputs.cache
-C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.API\obj\Debug\net7.0\FineTable.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.API\obj\Debug\net7.0\FineTable.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.API\obj\Debug\net7.0\staticwebassets\msbuild.FineTable.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\sharm\Desktop\FineTable\FineTable\FineTable.API\obj\Debug\net7.0\staticwebassets\msbuild.build.FineTable.API.props
