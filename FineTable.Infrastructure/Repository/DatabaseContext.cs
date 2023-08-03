@@ -40,6 +40,14 @@ namespace FineTable.Infrastructure.Repository
         }
         public DbSet<EFine> FineTable { get; set; }
         public DbSet<EFineCollection> FineCollection { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Call the base OnModelCreating to ensure default behavior is applied.
+            base.OnModelCreating(modelBuilder);
 
+            // Seed initial data for EFine table
+            var initialData = SeedData.GetInitialEFineData();
+            modelBuilder.Entity<EFine>().HasData(initialData);
+        }
     }
 }

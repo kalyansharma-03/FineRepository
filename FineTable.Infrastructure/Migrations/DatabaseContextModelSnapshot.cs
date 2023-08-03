@@ -39,6 +39,20 @@ namespace FineTable.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("FineTable");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Amount = 50,
+                            MemberType = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Amount = 10,
+                            MemberType = 1
+                        });
                 });
 
             modelBuilder.Entity("FineTable.Domain.Entities.EFineCollection", b =>
