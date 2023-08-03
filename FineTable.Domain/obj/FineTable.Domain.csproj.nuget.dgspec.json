@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj": {}
+    "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj": {
+    "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj",
         "projectName": "FineTable.Domain",
-        "projectPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj",
-        "packagesPath": "C:\\Users\\SAMIKSHA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\obj\\",
+        "projectPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj",
+        "packagesPath": "C:\\Users\\sharm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SAMIKSHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sharm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
