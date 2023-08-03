@@ -35,7 +35,7 @@ namespace FineTable.Application.Manager.Implementation
                               {
                                   Id = s.Id,
                                   Amount = s.Amount,
-                                  MemberType    = s.MemberType
+                                  MemberType   = s.MemberType
                               }).ToList();
                 serviceResult.Status = StatusType.Success;
                 serviceResult.Message = "Fine Status Found";

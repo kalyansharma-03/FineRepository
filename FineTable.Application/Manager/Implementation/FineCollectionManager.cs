@@ -32,6 +32,8 @@ namespace FineTable.Application.Manager.Implementation
                     ReturnDate = fineCollectionRequest.ReturnDate,  
                     MemberType = fineCollectionRequest.MemberType,
                 };
+                var FineAll = await _serviceFine.GetFine();
+                var rate= FineAll.Where(x=>x.MemberType == parse.MemberType).Select(x => x.Amount).FirstOrDefault();
 
 
                 var result = await _service.AddFineCollection(parse);

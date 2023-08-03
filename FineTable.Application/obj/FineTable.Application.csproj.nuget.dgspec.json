@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Application\\FineTable.Application.csproj": {}
+    "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Application\\FineTable.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Application\\FineTable.Application.csproj": {
+    "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Application\\FineTable.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Application\\FineTable.Application.csproj",
+        "projectUniqueName": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Application\\FineTable.Application.csproj",
         "projectName": "FineTable.Application",
-        "projectPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Application\\FineTable.Application.csproj",
-        "packagesPath": "C:\\Users\\sharm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Application\\obj\\",
+        "projectPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Application\\FineTable.Application.csproj",
+        "packagesPath": "C:\\Users\\SAMIKSHA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sharm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAMIKSHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj"
+              "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj"
               }
             }
           }
@@ -87,21 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj": {
+    "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj",
         "projectName": "FineTable.Domain",
-        "projectPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj",
-        "packagesPath": "C:\\Users\\sharm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\obj\\",
+        "projectPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj",
+        "packagesPath": "C:\\Users\\SAMIKSHA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sharm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAMIKSHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,21 +166,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj": {
+    "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj",
         "projectName": "FineTable.Infrastructure",
-        "projectPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\sharm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Infrastructure\\FineTable.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\SAMIKSHA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sharm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAMIKSHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,8 +194,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj": {
-                "projectPath": "C:\\Users\\sharm\\Desktop\\FineTable\\FineTable\\FineTable.Domain\\FineTable.Domain.csproj"
+              "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj": {
+                "projectPath": "C:\\Users\\SAMIKSHA\\Desktop\\FineCollection\\FineRepository\\FineTable.Domain\\FineTable.Domain.csproj"
               }
             }
           }
@@ -261,7 +261,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

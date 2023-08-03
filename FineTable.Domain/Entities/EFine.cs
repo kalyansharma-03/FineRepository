@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FineTable.Domain.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -10,7 +11,7 @@ namespace FineTable.Domain.Entities
     public class EFine
     {
         public int Id { get; set; }
-        public MemberTypes MemberType { get; set; }
+        public MemberType MemberType { get; set; }
         public int Amount { get; set; }
     }
 }
